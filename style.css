@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'RobotoExtraBold';
+    src: url(Fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url(Fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(Fonts/Roboto/Roboto-Light.ttf);
+}
+
+body {
+    margin: 0;
+}
+.FirstBox {
+    background-color: #1f2937;
+}
+.logo{
+    padding-top: 20px;
+    width: 100px;
+}
+nav {
+    padding: 20px;
+}
+a:hover {
+    color:#1f2937;
+}
+nav ul a:hover {
+    color: #3882f6;
+}
+
+nav ul  {
+    list-style-type: none;
+}
+
+a {
+    color: #e5e7eb;
+    font-family: RobotoRegular;
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+li {
+    margin-left: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 43%;
+    margin: 0 auto 0 auto;
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color: white;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: RobotoRegular;
+    font-size: 18px;
+}
+.HeroMainText {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+.HeroMainText img{
+    height: 250px;
+    width: 600px
+}
+.HeroText h1{
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-family: RobotoExtraBold;
+    width: 500px;
+}
+.HeroText button {
+    margin-top: 20px;
+}
+.HeroMainText p{
+    width: 450px;
+}
+.HeroMainText a{
+    text-decoration: none;
+}
+.HeroText p, header a, header a:hover {
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    text-decoration:none;
+}
+#MainImage {
+    width: 600px;
+    height: 250px;
+    overflow: hidden;
+}
+#MainImage img {
+    width: 600px;
+    height: fit-content;
+}
+.SecondBox {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+button {
+    font-family: RobotoRegular;
+    background-color: #3882f6;
+    border: none;
+}
+.one {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    font-family: RobotoExtraBold;
+}
+.Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.SmlImage {
+    height: 170px;
+    width: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+ }
+ figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color:#1f2937; 
+}
+.ThirdBox {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.two {
+    align-self: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: left;
+    font-family: RobotoLightItalic;
+}
+.ThirdBox .author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-family: RobotoExtraBold;
+}
+.actionText h1 {
+    font-family: RobotoExtraBold;
+    font-size: 18px; 
+    color: #f9faf8;
+}
+.actionText p {
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color: #f9faf8;
+    padding-right: 100px;
+}
+.action {
+    background-color:#3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 40%;
+    margin: 5rem auto 5rem auto;
+    border-radius: 10px;
+}
+
+.button2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 4px solid #e5e7eb;
+    align-self: center;
+}
+.button2 a{
+    text-decoration: none;
+}
+
+.copyright {
+    font-family: RobotoLight;
+    font-size: 18px; 
+    color: #e5e7eb;
+    background-color:#1f2937;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
